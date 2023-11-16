@@ -1,0 +1,14 @@
+{
+    "private": true,
+    "scripts": {
+        "build": "tsc; cp -r src/data build/"
+    },
+    "dependencies": {
+        "@types/k6": "^0.47.0"
+    },
+    "devDependencies": {
+        "@tsconfig/node20": "^20.1.2",
+        "@types/node": "^20.0.0",
+        "typescript": "5.2.2"
+    }
+}
