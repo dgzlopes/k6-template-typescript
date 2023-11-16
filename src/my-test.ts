@@ -3,7 +3,7 @@ import { check, sleep } from "k6";
 import { SharedArray } from 'k6/data';
 import type { RecommendationRequest, RecommendationResponse } from "./quickpizza"
 
-const BASE_URL: string = __ENV.BASE_URL || 'http://localhost:3333';
+const BASE_URL: string = __ENV.BASE_URL || 'https://pizza.grafana.fun';
 
 export const options = {
   vus: 10,
